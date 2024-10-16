@@ -43,7 +43,7 @@ export async function POST(req: Request) {
       subject: `${name} sent you a message!`,
       text: message,
       html: `
-        <p><strong>Hi Sandeep!</strong></p>
+        <p><strong>Hi Sunny!</strong></p>
         <p>You have received a ping from ${name} (${email}).</p>
         <p><strong>Message:</strong> ${message}</p>
       `
