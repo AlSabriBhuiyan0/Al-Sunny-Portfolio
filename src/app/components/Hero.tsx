@@ -28,7 +28,7 @@ export const Hero = () => {
             }}
             className="text-center text-4xl sm:text-3xl"
           >
-            {'Developer '} 
+            {'Developer '}
             <span className="font-bold text-target">Full-stack</span>
             {' & '}
             {'Data '}

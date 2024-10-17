@@ -6,7 +6,7 @@ export const socialData = [
   { link: 'https://github.com/Alsabribhuiyan0/', icon: <Github /> },
   { link: 'https://linkedin.com/in/Alsabribhuiyan/', icon: <Linkedin /> },
   { link: 'https://www.instagram.com/alsunny65/', icon: <Instagram /> },
-  { link: 'https://www.facebook.com/alsabribhuiyan/', icon: <Facebook /> },
+  { link: 'https://www.facebook.com/alsabribhuiyan/', icon: <Facebook /> }
 ]
 
 export const SocialLinks = () => {

@@ -1,6 +1,6 @@
 import { MotionDiv } from '../lib/motion'
 
-import { Github, Linkedin, Instagram, Facebook} from 'lucide-react'
+import { Github, Linkedin, Instagram, Facebook } from 'lucide-react'
 
 const iconSize = { width: 28, height: 28 }
 
@@ -20,7 +20,7 @@ const socialData = [
   {
     link: 'https://www.facebook.com/alsabribhuiyan/',
     icon: <Facebook width={iconSize.width} height={iconSize.height} />
-  },
+  }
 ]
 export const Footer = () => {
   return (
