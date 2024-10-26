@@ -112,27 +112,27 @@ export const skillsData = [
     name: 'Selenium'
   },
   {
-    img: 'powerbi/powerbi-plain.svg',
+    img: 'https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg',
     name: 'PowerBI'
   },
   {
-    img: 'tableau/tableau-original.svg',
+    img: 'https://cdn.worldvectorlogo.com/logos/tableau-software.svg',
     name: 'Tableau'
   },
   {
-    img: 'microsoftoffice/microsoftoffice-plain.svg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg',
     name: 'Excel'
   },
   {
-    img: 'jupyter/jupyter-original.svg',
+    img: 'https://deepnote.com/static/landing/logo.svg',
     name: 'Deepnote'
   },
   {
-    img: 'tensorflow/tensorflow-original.svg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg',
     name: 'Deep Learning'
   },
   {
-    img: 'python/python-original.svg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg',
     name: 'Machine Learning'
   },
   {
