@@ -47,7 +47,7 @@ export const projectsData: projectType[] = [
     name: 'Weather App',
     repo: 'https://github.com/AlSabriBhuiyan0/WeatherAppbyAlsunny.git',
     url: 'https://weatherappbyalsunny-9f57ab4d7d89.herokuapp.com/',
-    image: '/Weatherappbyalsunny.png',
+    image: '/Weatherappbyalsunny.PNG',
     description:
       'WeatherAppbyAlsunny is a responsive web application built with React that allows users to view the weather forecast for a specific location. The app fetches weather data from the [WeatherAPI.com](https://www.weatherapi.com/) and presents it in a user-friendly interface. The app is styled using Bootstrap and custom CSS for a clean and modern design.',
     Skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS']
