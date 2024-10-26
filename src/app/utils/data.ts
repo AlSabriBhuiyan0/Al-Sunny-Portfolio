@@ -38,16 +38,16 @@ export const projectsData: projectType[] = [
     name: 'Portfolio',
     repo: 'https://github.com/AlSabriBhuiyan0/AlsunnyPortfolio',
     url: 'https://alsunny.live/',
-    image: '/Portfolio.png', // Replace with the actual image path
+    image: '/Portfolio.png',
     description:
       'A personal portfolio website showcasing my skills, projects, and experiences as a Webdeveloper and Data Scientist. The site features a clean and modern design, making it easy for visitors to navigate and view my work.',
     Skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS']
-  }
+  },
   {
     name: 'Weather App',
     repo: 'https://github.com/AlSabriBhuiyan0/WeatherAppbyAlsunny.git',
     url: 'https://weatherappbyalsunny-9f57ab4d7d89.herokuapp.com/',
-    image: '/Weatherappbyalsunny.png',  // Replace with the actual image path
+    image: '/Weatherappbyalsunny.png',
     description:
       'WeatherAppbyAlsunny is a responsive web application built with React that allows users to view the weather forecast for a specific location. The app fetches weather data from the [WeatherAPI.com](https://www.weatherapi.com/) and presents it in a user-friendly interface. The app is styled using Bootstrap and custom CSS for a clean and modern design.',
     Skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS']
