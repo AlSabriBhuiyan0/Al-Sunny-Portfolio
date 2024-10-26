@@ -42,9 +42,10 @@ export const Skills = () => {
             className="flex items-center gap-3 rounded-lg bg-secondary px-4 py-2 font-bold"
           >
             <Image
-              src={skill.img.startsWith('/') 
-                ? skill.img  // Use local path for custom SVGs
-                : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.img}`  // Use CDN for other icons
+              src={
+                skill.img.startsWith('/')
+                  ? skill.img
+                  : `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.img}`
               }
               alt={skill.name}
               width={40}
