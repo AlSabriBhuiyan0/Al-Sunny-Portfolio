@@ -112,7 +112,7 @@ export const skillsData = [
     name: 'Selenium'
   },
   {
-    img: 'powerbi/powerbi-original.svg',
+    img: 'powerbi/powerbi-plain.svg',
     name: 'PowerBI'
   },
   {
@@ -120,27 +120,23 @@ export const skillsData = [
     name: 'Tableau'
   },
   {
-    img: 'mysql/mysql-original.svg',
-    name: 'MySQL'
-  },
-  {
-    img: 'excel/excel-original.svg',
+    img: 'microsoftoffice/microsoftoffice-plain.svg',
     name: 'Excel'
   },
   {
-    img: 'deepnote/deepnote-original.svg',
+    img: 'jupyter/jupyter-original.svg',
     name: 'Deepnote'
   },
   {
-    img: 'deeplearning/deeplearning-original.svg',
+    img: 'tensorflow/tensorflow-original.svg',
     name: 'Deep Learning'
+  },
+  {
+    img: 'python/python-original.svg',
+    name: 'Machine Learning'
   },
   {
     img: 'github/github-original.svg',
     name: 'GitHub'
-  },
-  {
-    img: 'machinelearning/machinelearning-original.svg',
-    name: 'Machine Learning'
   }
 ]
