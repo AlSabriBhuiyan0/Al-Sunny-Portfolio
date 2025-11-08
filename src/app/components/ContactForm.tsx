@@ -44,25 +44,44 @@ const ContactForm = () => {
     setNameError('')
     setEmailError('')
     setMessageError('')
-    setSending(true)
 
+    // Validation
+    if (!name) {
+      setNameError('Name is required!')
+    }
+    if (!email) {
+      setEmailError('Email is required!')
+    } else if (!emailRegex.test(email)) {
+      setEmailError('Invalid email format!')
+    }
+    if (!message) {
+      setMessageError('Message is required!')
+    }
+
+    // If validation fails, don't proceed
     if (!name || !email || !emailRegex.test(email) || !message) {
-      if (!name) {
-        setNameError('Name is required!')
-      }
-      if (!email) {
-        setEmailError('Email is required!')
-      } else if (!emailRegex.test(email)) {
-        setEmailError('Invalid email format!')
-      }
-      if (!message) {
-        setMessageError('Message is required!')
-      }
-      setSending(false)
-      const data = { name, email, message }
+      return
+    }
 
-      try {
-        const response = await fetch(`./api/contact`, {
+    setSending(true)
+    const data = { name, email, message }
+
+    try {
+      // Try Next.js API route first, fallback to PHP for static hosting
+      let apiUrl = '/api/contact'
+      let response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/json, text/plain, */*',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+
+      // If Next.js API fails (404), try PHP endpoint
+      if (response.status === 404) {
+        apiUrl = '/api/contact.php'
+        response = await fetch(apiUrl, {
           method: 'POST',
           headers: {
             Accept: 'application/json, text/plain, */*',
@@ -70,23 +89,23 @@ const ContactForm = () => {
           },
           body: JSON.stringify(data)
         })
-
-        if (response.status === 422) {
-          displayToast('Invalid Data Received', false)
-        } else if (response.status === 200) {
-          setName('')
-          setEmail('')
-          setMessage('')
-          displayToast('Message sent successfully', true)
-        } else {
-          displayToast('Oops! An Error occurred', false)
-        }
-      } catch (error) {
-        displayToast('An error occurred', false)
-        console.error('An error occurred:', error)
-      } finally {
-        setSending(false)
       }
+
+      if (response.status === 422) {
+        displayToast('Invalid Data Received', false)
+      } else if (response.status === 200) {
+        setName('')
+        setEmail('')
+        setMessage('')
+        displayToast('Message sent successfully', true)
+      } else {
+        displayToast('Oops! An Error occurred', false)
+      }
+    } catch (error) {
+      displayToast('An error occurred', false)
+      console.error('An error occurred:', error)
+    } finally {
+      setSending(false)
     }
   }
   return (

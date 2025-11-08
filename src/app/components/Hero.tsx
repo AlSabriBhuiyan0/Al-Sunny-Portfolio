@@ -1,6 +1,6 @@
 import { MotionDiv, MotionH1, MotionP } from '../lib/motion'
-import { EmailBtn } from './EmailBtn'
 import { CVBtn } from './CVBtn'
+import { EmailBtn } from './EmailBtn'
 
 export const Hero = () => {
   return (

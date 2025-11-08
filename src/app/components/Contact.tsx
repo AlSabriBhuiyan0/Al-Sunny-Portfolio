@@ -1,7 +1,7 @@
 import { MotionDiv } from '../lib/motion'
 import ContactForm from './ContactForm'
-import { EmailBtn } from './EmailBtn'
 import { CVBtn } from './CVBtn'
+import { EmailBtn } from './EmailBtn'
 import { SectionContainer } from './SectionContainer'
 
 export const Contact = () => {
