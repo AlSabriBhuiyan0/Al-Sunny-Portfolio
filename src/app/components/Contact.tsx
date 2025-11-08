@@ -1,6 +1,7 @@
 import { MotionDiv } from '../lib/motion'
 import ContactForm from './ContactForm'
 import { EmailBtn } from './EmailBtn'
+import { CVBtn } from './CVBtn'
 import { SectionContainer } from './SectionContainer'
 
 export const Contact = () => {
@@ -22,8 +23,10 @@ export const Contact = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.3, delay: 0.5 }}
+          className="flex items-center gap-4 sm:flex-col sm:gap-3"
         >
           <EmailBtn />
+          <CVBtn />
         </MotionDiv>
       </MotionDiv>
       <ContactForm />

@@ -1,5 +1,6 @@
 import { MotionDiv, MotionH1, MotionP } from '../lib/motion'
 import { EmailBtn } from './EmailBtn'
+import { CVBtn } from './CVBtn'
 
 export const Hero = () => {
   return (
@@ -42,9 +43,10 @@ export const Hero = () => {
               delay: 1.2,
               duration: 0.3
             }}
-            className="mt-4"
+            className="mt-4 flex items-center gap-4 sm:flex-col sm:gap-3"
           >
             <EmailBtn />
+            <CVBtn />
           </MotionDiv>
         </div>
       </MotionDiv>
