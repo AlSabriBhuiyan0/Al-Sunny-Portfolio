@@ -51,6 +51,67 @@ export const projectsData: projectType[] = [
     description:
       'WeatherAppbyAlsunny is a responsive web application built with React that allows users to view the weather forecast for a specific location. The app fetches weather data from the [WeatherAPI.com](https://www.weatherapi.com/) and presents it in a user-friendly interface. The app is styled using Bootstrap and custom CSS for a clean and modern design.',
     Skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Tailwind CSS']
+  },
+  {
+    name: 'Carbon Credit Stock Crypto Tracker',
+    repo: 'https://github.com/AlSabriBhuiyan0/Carbon-credit-stock-crypto-tracker.git',
+    url: false,
+    image: '/Ai forcrast result overview .png',
+    description:
+      'A comprehensive full-stack analytics platform for tracking and visualizing stock market data, crypto assets, and carbon credit transactions with AI-powered forecasting capabilities. Features Prophet and ARIMA models for predictions, real-time data integration from Yahoo Finance and UNFCCC, and a complete dashboard with portfolio management.',
+    Skills: [
+      'React',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+      'Python',
+      'Prophet',
+      'ARIMA',
+      'Machine Learning',
+      'WebSocket'
+    ]
+  },
+  {
+    name: 'Treat Well Hospital Management System',
+    repo: 'https://github.com/AlSabriBhuiyan0/Cse311lproject.git',
+    url: false,
+    image: '/Treat Well Hospital Management System.png',
+    description:
+      'A comprehensive course project for CSE311L, demonstrating advanced software engineering principles and database management concepts. The project showcases practical implementation of database systems and application development.',
+    Skills: ['Java', 'Database', 'Software Engineering', 'SQL']
+  },
+  {
+    name: 'Blockchain-based Token Project',
+    repo: 'https://github.com/AlSabriBhuiyan0/BrickToken-Local-version-updated.git',
+    url: false,
+    image: '/bricktoken.png',
+    description:
+      'A blockchain-based token project with local version implementation. Features token creation, smart contract functionality, and decentralized application capabilities for digital asset management.',
+    Skills: [
+      'Blockchain',
+      'Solidity',
+      'Web3',
+      'Smart Contracts',
+      'JavaScript',
+      'Ethereum'
+    ]
+  },
+  {
+    name: 'AI-powered Chatbot',
+    repo: 'https://github.com/AlSabriBhuiyan0/LLM-Android-app-project-.git',
+    url: false,
+    image: '/android.png',
+    description:
+      'An Android mobile application integrating Large Language Model (LLM) capabilities. The app provides AI-powered features and natural language processing on mobile devices, enabling intelligent interactions and AI-driven functionality.',
+    Skills: [
+      'Android',
+      'Kotlin',
+      'Java',
+      'LLM',
+      'Machine Learning',
+      'Python',
+      'API Integration'
+    ]
   }
 ]
 

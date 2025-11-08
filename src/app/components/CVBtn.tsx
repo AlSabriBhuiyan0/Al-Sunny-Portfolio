@@ -4,7 +4,7 @@ import { FileText } from 'lucide-react'
 
 export const CVBtn = () => {
   const cvUrl =
-    'https://raw.githubusercontent.com/AlSabriBhuiyan0/Classic-Cv/main/Alsabribhuiyan_Resume.pdf'
+    'https://github.com/AlSabriBhuiyan0/Classic-Cv/blob/ab7f69fb7ba0521513dc9457ddcb5f252ad57958/Alsabribhuiyan_Resume%20main.pdf'
 
   return (
     <a
