@@ -6,7 +6,7 @@ import copy from 'copy-to-clipboard'
 import { Mail } from 'lucide-react'
 
 export const EmailBtn = () => {
-  const email = 'contact@alsunny.live'
+  const email = 'contact@alsabribhuiyan.xyz'
   const [copied, setCopied] = useState(false)
 
   const handleCopyEmail = () => {
